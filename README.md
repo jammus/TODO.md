@@ -4,15 +4,15 @@ TODOs in a format similar to [TODO.txt](https://github.com/todotxt/todo.txt) but
 
 ## Example
 
-- [x] (A) Create an example +TODO
-  The example +TODO should provide demonstrate all fields and default tags @work
-  a:2025-09-08 d:2025-09-09 due:2025-09-09
+- [x] (A) Create an example +TODO  
+  The example +TODO should provide demonstrate all fields and default tags @work  
+  a:2025-09-08 d:2025-09-09 due:2025-09-09  
 
 ## Format
 
-- [ ] Title line
-  Description line (optional)
-  Metadata (optional)
+- [ ] Title line  
+  Description line (optional)  
+  Metadata (optional)  
 
 ### Title line
 
