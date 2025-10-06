@@ -5,8 +5,10 @@ TODOs in a format similar to [TODO.txt](https://github.com/todotxt/todo.txt) but
 ## Example
 
 - [x] (A) Create an example +TODO  
-  The example +TODO should provide demonstrate all fields and default tags @work  
-  a:2025-09-08 d:2025-09-09 due:2025-09-09  
+  The example +TODO should demonstrate all default components @home  
+  a:2025-09-08 due:2025-09-09  
+  u:2025-09-08 On track to complete tomorrow  
+  d:2025-09-09
 
 ## Format
 
@@ -16,7 +18,8 @@ TODOs in a format similar to [TODO.txt](https://github.com/todotxt/todo.txt) but
 
 ### Title line
 
-Status is recorded inside square brackets using markdown task markers:
+Status is recorded inside square brackets using an extended version of markdown
+task markers:
 
 - [ ] open
 - [x] complete
@@ -35,6 +38,9 @@ tags. Can span multiple lines if required.
 Optional metadata in key:value format. Some default known metadata properties
 include:
 
-- a or added - When the todo was added, e.g. a:2025-09-08
-- d or done - When the todo was done or completed e.g. d:2025-09-09
-- due - Due date for the todo, e.g. due:2025-09-09
+- a or added - When the todo was added, e.g. `a:2025-09-08`
+- d or done - When the todo was done or completed e.g. `d:2025-09-09`
+- due - Due date for the todo, e.g. `due:2025-09-09`
+- u or update - Track free text updates or progress e.g. `u:2025-09-09 Hit a blocker`
+  Everything after the date until the next metadata pair should be considered
+  the text of the update
