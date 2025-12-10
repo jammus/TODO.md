@@ -6,7 +6,7 @@ TODOs in a format similar to [TODO.txt](https://github.com/todotxt/todo.txt) but
 
 - [x] (A) Create an example +TODO  
   The example +TODO should demonstrate all default components @home  
-  a:2025-09-08 due:2025-09-09  
+  a:2025-09-08 e:2025-09-09  
   u:2025-09-08 On track to complete tomorrow  
   d:2025-09-09
 
@@ -40,7 +40,7 @@ include:
 
 - a or added - When the todo was added, e.g. `a:2025-09-08`
 - d or done - When the todo was done or completed e.g. `d:2025-09-09`
-- due - Due date for the todo, e.g. `due:2025-09-09`
+- e or expect - Expected (due) date for the todo, e.g. `e:2025-09-09`
 - u or update - Track free text updates or progress e.g. `u:2025-09-09 Hit a blocker`
   Everything after the date until the next metadata pair should be considered
   the text of the update
